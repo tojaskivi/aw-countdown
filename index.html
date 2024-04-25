@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Monolit countdown</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/preset-fireworks@3/tsparticles.preset.fireworks.bundle.min.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="countdown" id="countdown">
+        <div id="number-container-hour" class="number-container">
+          <span id="value-hour" class="number-value">-</span>
+          <span class="letter">hours</span>
+        </div>
+
+        <div class="number-container">
+          <span id="hour-semicolon" class="number-value">:</span>
+          <span class="letter"></span>
+        </div>
+
+        <div id="number-container-minute" class="number-container">
+          <span id="value-minute" class="number-value">-</span>
+          <span class="letter">minutes</span>
+        </div>
+        <div class="number-container">
+          <span id="minute-semicolon" class="number-value">:</span>
+          <span class="letter"></span>
+        </div>
+        <div id="number-container-second" class="number-container">
+          <span id="value-second" class="number-value">-</span>
+          <span class="letter">seconds</span>
+        </div>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
