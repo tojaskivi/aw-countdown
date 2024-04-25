@@ -10,7 +10,7 @@ const countDown = document.querySelector("#countdown");
 const hourSemiColonEl = document.querySelector("#hour-semicolon");
 const minuteSemiColonEl = document.querySelector("#minute-semicolon");
 
-let launchDate = new Date(2024, 3, 25, 18).getTime();
+let launchDate = new Date(2024, 3, 25, 17, 30).getTime();
 // const launchDate = new Date().getTime() + 6200;
 
 // Update every second
